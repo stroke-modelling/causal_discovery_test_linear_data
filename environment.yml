@@ -1,0 +1,22 @@
+name: synthetic_causal_test
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - numpy
+  - pandas
+  - pip
+  - python>=3.12
+  - matplotlib
+  - scipy
+  - pip:
+    - dowhy
+    - gcastle
+    - graphviz
+    - jupyterlab
+    - networkx
+    - setuptools
+    - scikit-learn
+    - twine
+    - wheel
